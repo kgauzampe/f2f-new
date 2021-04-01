@@ -30,3 +30,5 @@ io.on("connection", (socket) => {
     data.signal
   );
 });
+
+server.listen(5000, () => console.log("server up and running on 5000"));
